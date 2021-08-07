@@ -1,0 +1,149 @@
+{
+    "dataSets": [
+        {
+            "ObjectID": 0,
+            "name": "Zoo - Giraffes - 1",
+            "id_User": 1
+        },
+        {
+            
+            "ObjectID": 1,
+            "name": "Zoo - Gorillas - 1",
+            "id_User": 1
+        },
+        {
+            
+            "ObjectID": 2,
+            "name": "Zoo - Lions - 1",
+            "id_User": 2
+        }
+    ],
+    "users": [
+        {
+            "id": 1,
+            "name": "Upchurch, James",
+            "phoneNumber": "5555555555",
+            "email": "testemail@email.com"
+        }, 
+        {
+            "id": 2,
+            "name": "Kerr, Travis",
+            "phoneNumber": "1111111111",
+            "email": "testemail1@email.com"
+        }
+    ],
+    "fileTypes": [
+        {
+            "id": 0,
+            "fileType": "WAV"
+        }, 
+        {
+            "id": 1,
+            "fileType": "MP3"
+        }
+    ],
+    "files": [
+        {
+            "id": 0,
+            "fileName": "giraffes_01.wav",
+            "fileSize": 1024,
+            "id_FileType": 0
+        }, 
+        {
+            "id": 1,
+            "fileName": "gorillas_01.wav",
+            "fileSize": 1024,
+            "id_FileType": 0
+        }, 
+        {
+            "id": 2,
+            "fileName": "lions_01.mp3",
+            "fileSize": 1024,
+            "id_FileType": 1
+        }
+    ],
+    "dataTypes": [
+        {
+            "id": 0,
+            "name": "Train"
+        }, 
+        {
+            "id": 1,
+            "name": "Plane"
+        }
+    ],
+    "dataLabels": [
+        {
+            "id": 0,
+            "id_File": 0,
+            "id_DataSet": 0,
+            "startTime": 5000,
+            "duration": 10000,
+            "id_DataType": 0
+        }, 
+        {
+            "id": 1,
+            "id_File": 0,
+            "id_DataSet": 0,
+            "startTime": 16000,
+            "duration": 10000,
+            "id_DataType": 1
+        }, 
+        {
+            "id": 2,
+            "id_File": 0,
+            "id_DataSet": 0,
+            "startTime": 27000,
+            "duration": 10000,
+            "id_DataType": 0
+        }, 
+        {
+            "id": 3,
+            "id_File": 1,
+            "id_DataSet": 1,
+            "startTime": 5000,
+            "duration": 10000,
+            "id_DataType": 0
+        }, 
+        {
+            "id": 4,
+            "id_File": 1,
+            "id_DataSet": 1,
+            "startTime": 16000,
+            "duration": 10000,
+            "id_DataType": 1
+        }, 
+        {
+            "id": 5,
+            "id_File": 1,
+            "id_DataSet": 1,
+            "startTime": 27000,
+            "duration": 10000,
+            "id_DataType": 1
+        }, 
+        {
+            "id": 6,
+            "id_File": 2,
+            "id_DataSet": 2,
+            "startTime": 5000,
+            "duration": 10000,
+            "id_DataType": 0
+        }, 
+        {
+            "id": 7,
+            "id_File": 2,
+            "id_DataSet": 2,
+            "startTime": 16000,
+            "duration": 10000,
+            "id_DataType": 0
+        }, 
+        {
+            "id": 8,
+            "id_File": 2,
+            "id_DataSet": 2,
+            "startTime": 27000,
+            "duration": 10000,
+            "id_DataType": 1
+        }
+    ]
+}
